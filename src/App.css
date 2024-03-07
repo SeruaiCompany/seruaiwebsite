@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
-}
+.CenterNavBar {
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+
+.Navbar {
+
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  margin-top: 10vh;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.Navbar img {
+
+  width: auto;
+  height: 5vh;
+
+}
+
+.ItemsList ul {
+
+  display: flex;
+
+}
+
+.ItemsList li {
+
+  list-style-type: none;
   color: white;
+  margin-left: 5vh;
+  font-size: 1.3vh;
+
 }
 
-.App-link {
-  color: #61dafb;
+.HeroContainer {
+
+  position: relative;
+
+  /* Minimum Height & Maximum Height */
+  background-color: black;
+
+  width: 100%;
+  min-height: 80vh;
+
+  /* Hide Overflow of Video */
+  overflow: hidden;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.HeroVideo {
+
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+  .HeroContainer {
+    min-height: 80vh; /* Adjust the minimum height for smaller screens */
   }
 }
