@@ -11,32 +11,45 @@
   display: flex;
   position: absolute;
   z-index: 2;
-  margin-top: 10vh;
+  margin-top: 4vh;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 
 }
 
 .Navbar img {
 
   width: auto;
-  height: 5vh;
+  height: 7vh;
+  flex: 1;
 
 }
 
-.ItemsList ul {
-
+.ItemsList {
   display: flex;
+  flex: 5;
+  gap: 5%;
+  justify-content: flex-end;
+  padding-right: 5%;
+}
+
+.NavLink {
+  padding: none;
+  font-size: 1.9vh;
+  color: white;
+}
+
+.DropdownContent {
+  
+  display: none;
+  position: absolute;
+  min-width: 160px;
 
 }
 
-.ItemsList li {
-
-  list-style-type: none;
-  color: white;
-  margin-left: 5vh;
-  font-size: 1.3vh;
-
+.DropdownItem:hover .DropdownContent {
+  display: block;
 }
 
 .HeroContainer {

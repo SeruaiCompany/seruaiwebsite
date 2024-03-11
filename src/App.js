@@ -18,12 +18,35 @@ function App() {
           <div class="Navbar">
             <img src={logo} />
             <div class="ItemsList"> 
-              <ul>  
-                <li> Technology </li>
-                <li> Products </li>
-                <li> Careers </li>
-                <li> API </li>
-              </ul>
+               
+                <div class="DropdownItem"> 
+                  <h3 class="NavLink"> Products </h3>
+                  <div class="DropdownContent">  
+                    <a> Wolfgang </a>
+                  </div>
+                </div>
+
+                <div class="DropdownItem"> 
+                  <h3 class="NavLink"> Research </h3>
+                  <div class="DropdownContent">  
+                    <a> Wolfgang </a>
+                  </div>
+                </div>
+
+                <div class="DropdownItem"> 
+                  <h3 class="NavLink"> Careers </h3>
+                  <div class="DropdownContent">  
+                    <a> Wolfgang </a>
+                  </div>
+                </div>
+              
+                <div class="DropdownItem"> 
+                  <h3 class="NavLink"> Mission </h3>
+                  <div class="DropdownContent">  
+                    <a> Wolfgang </a>
+                  </div>
+                </div>
+
             </div>
           </div> 
         </div>
