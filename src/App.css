@@ -15,14 +15,16 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  font-family: inter;
 
 }
 
 .Navbar img {
 
   width: auto;
-  height: 7vh;
+  height: 7.5vh;
   flex: 1;
+  padding-left: 1%;
 
 }
 
@@ -34,22 +36,48 @@
   padding-right: 5%;
 }
 
+.TitleItem {
+
+  display: flex;
+
+}
+
+.TitleItem img {
+
+  height: auto;
+  width: 1vh;
+  padding-left: 7%;
+
+}
+
 .NavLink {
   padding: none;
-  font-size: 1.9vh;
+  font-size: 2vh;
   color: white;
+  font-weight: 450;
 }
 
 .DropdownContent {
   
-  display: none;
   position: absolute;
-  min-width: 160px;
+  display: none;
+  font-size: 1.5vh;
+  flex-direction: column;
+
+}
+
+.DropdownContent a {
+
+  width: 100%;
+  font-weight: 400;
+  font-size: 1.5vh;
+  color: white;
+  margin-bottom: 10%;
 
 }
 
 .DropdownItem:hover .DropdownContent {
-  display: block;
+  display: flex;
 }
 
 .HeroContainer {
@@ -76,9 +104,39 @@
 
 }
 
+.BurgerItem {
+  display: none;
+  height: auto;
+}
+
+.BurgerItem img {
+  height: auto;
+  width: 3.8vh;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 768px) {
   .HeroContainer {
     min-height: 80vh; /* Adjust the minimum height for smaller screens */
   }
+  .ItemsList {
+    flex-direction: column;
+    display: none;
+  }
+
+  .BurgerItem {
+    display: block;
+    flex: 1;
+    padding-right: 5%;
+  }
+
+  .Navbar Img {
+    flex: 2;
+  }
+
 }
