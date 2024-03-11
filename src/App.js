@@ -67,14 +67,18 @@ function App() {
         </div>
         
         <div class={`BurgerMenu ${isMenuOpen ? 'open' : ''}`}> 
-            <h3 class="NavLink"> Products </h3>
-            <a> Wolfgang </a>
-            <a> Protactia </a>
-            <a> Wolfgang Attacha </a>
-            <h3 class="NavLink"> Research </h3>
-            <a> Compania </a>
-            <h3 class="NavLink"> Careers </h3>
-            <h3 class="NavLink"> Mission </h3>
+            <div class="NavItems">  
+              <div class="NavProducts">  
+                <h3 class="NavLink"> Products </h3>    
+                <a> Wolfgang </a>
+                <a> Protactia </a>
+                <a> Wolfgang Attacha </a>
+              </div>
+              <h3 class="NavLink"> Research </h3>
+              <a> Compania </a>
+              <h3 class="NavLink"> Careers </h3>
+              <h3 class="NavLink"> Mission </h3>
+            </div>
          </div>
 
         <div class="HeroContainer">  

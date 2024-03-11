@@ -130,6 +130,11 @@ button {
   border: none;
 }
 
+.NavItems {
+  margin-top: 13vh;
+  flex: 1;
+}
+
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 768px) {
   .HeroContainer {
@@ -151,7 +156,7 @@ button {
   }
 
   .BurgerMenu.open {
-    display: block;
+    display: flex;
   }
 
 }
