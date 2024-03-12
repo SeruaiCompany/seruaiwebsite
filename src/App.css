@@ -1,13 +1,10 @@
 .CenterNavBar {
-
   width: 100%;
   display: flex;
   justify-content: center;
-
 }
 
 .Navbar {
-
   display: flex;
   position: absolute;
   z-index: 3;
@@ -16,16 +13,13 @@
   justify-content: space-between;
   width: 100%;
   font-family: inter;
-
 }
 
 .Navbar img {
-
   width: auto;
   height: 7.5vh;
   flex: 1;
   padding-left: 1%;
-
 }
 
 .ItemsList {
@@ -37,17 +31,13 @@
 }
 
 .TitleItem {
-
   display: flex;
-
 }
 
 .TitleItem img {
-
   height: auto;
   width: 1vh;
   padding-left: 7%;
-
 }
 
 .NavLink {
@@ -58,22 +48,18 @@
 }
 
 .DropdownContent {
-  
   position: absolute;
   display: none;
   font-size: 1.5vh;
   flex-direction: column;
-
 }
 
 .DropdownContent a {
-
   width: 100%;
   font-weight: 400;
   font-size: 1.5vh;
   color: white;
   margin-bottom: 10%;
-
 }
 
 .DropdownItem:hover .DropdownContent {
@@ -81,7 +67,6 @@
 }
 
 .HeroContainer {
-
   position: relative;
 
   /* Minimum Height & Maximum Height */
@@ -92,16 +77,13 @@
 
   /* Hide Overflow of Video */
   overflow: hidden;
-
 }
 
 .HeroVideo {
-
   height: 100vh;
   width: 100%;
   object-fit: cover;
   position: absolute;
-
 }
 
 .BurgerItem {
@@ -115,14 +97,12 @@
 }
 
 .BurgerMenu {
-
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.471);
   z-index: 2;  
   width: 100%;
   height: 100%;
-
 }
 
 button {
@@ -178,6 +158,30 @@ button {
     display: flex;
   }
 
+}
 
+@media (min-width: 2100px) {
+  
+  .NavLink {
+    font-size: 1.2vh;
+  }
+
+  .Navbar img {
+    height: 5vh;
+  }
+
+  .TitleItem img {
+    width: 0.7vh;
+    height: auto;
+  }
+
+  .DropdownContent {
+    font-size: 1vh;
+  }
+
+  .DropdownContent a {
+    font-size: 1vh;
+    margin-bottom: 13%;
+  }
 
 }
