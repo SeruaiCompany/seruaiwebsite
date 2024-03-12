@@ -5,7 +5,7 @@ import burgermenu from './burgermenu.svg'
 
 // Import
 import bannervideo from '../src/tempherovideo.mp4'
-import { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 
 function App() {
@@ -15,6 +15,20 @@ function App() {
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
+
+  useEffect(() => {
+    // Add or remove 'NoScroll' class based on the menu state
+    if (isMenuOpen) {
+      document.body.classList.add('NoScroll');
+    } else {
+      document.body.classList.remove('NoScroll');
+    }
+
+    // Cleanup: Remove the class when the component unmounts
+    return () => {
+      document.body.classList.remove('NoScroll');
+    };
+  }, [isMenuOpen]);
 
   return (
     <div className="App">
@@ -74,10 +88,15 @@ function App() {
                 <a> Protactia </a>
                 <a> Wolfgang Attacha </a>
               </div>
-              <h3 class="NavLink"> Research </h3>
-              <a> Compania </a>
-              <h3 class="NavLink"> Careers </h3>
-              <h3 class="NavLink"> Mission </h3>
+              <div class="NavProducts">  
+                <h3 class="NavLink"> Research </h3>    
+                <a> Compania </a>
+              </div>
+              <div class="NavProducts">  
+                <h3 class="NavLink"> Company </h3>    
+                <a> Careers </a>
+                <a> Mission </a>
+              </div>
             </div>
          </div>
 

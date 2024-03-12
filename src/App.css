@@ -132,7 +132,25 @@ button {
 
 .NavItems {
   margin-top: 13vh;
-  flex: 1;
+  padding-left: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.NavProducts {
+  font-family: inter;
+  display: flex;
+  color: rgb(218, 218, 218);
+  font-weight: 400;
+  flex-direction: column;
+}
+
+.NavProducts .NavLink {
+  font-weight: 500;
+}
+
+.NavProducts a {
+  margin-bottom: 10%;
 }
 
 /* Media Query for Mobile Devices */
@@ -153,10 +171,13 @@ button {
 
   .Navbar Img {
     flex: 2;
+    padding: 0%;
   }
 
   .BurgerMenu.open {
     display: flex;
   }
+
+
 
 }
