@@ -100,6 +100,14 @@ function App() {
             </div>
          </div>
 
+        <div class="HeroTextHolder"> 
+          <div class="HeroText">  
+            <h1> Leading innovation in cybersecurity and ai</h1>
+            <h2> Dedicated to the implementation of new ai technology <br></br> into our daily lives for the better </h2>
+            <button> Our mission </button>
+          </div>
+        </div>
+
         <div class="HeroContainer">  
           <video class="HeroVideo" muted loop autoPlay>   
           <source src={bannervideo}/>
