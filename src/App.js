@@ -102,8 +102,8 @@ function App() {
 
         <div class="HeroTextHolder"> 
           <div class="HeroText">  
-            <h1> Leading innovation in cybersecurity and ai</h1>
-            <h2> Dedicated to the implementation of new ai technology <br></br> into our daily lives for the better </h2>
+            <h1> Leading innovation in <br></br> cybersecurity and artificial intelligence </h1>
+            <h2> Researching and implementing new technologies in our daily lives for the better </h2>
             <button> Our mission </button>
           </div>
         </div>
