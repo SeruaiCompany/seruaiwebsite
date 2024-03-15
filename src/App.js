@@ -114,6 +114,17 @@ function App() {
           </video>
         </div>
 
+        <div class="ArticlesHolder"> 
+          <h1> Articles </h1>
+          <div class="Articles">
+            <div class="Article"> 
+              <img/>
+              <h2> </h2>
+              <p> </p>
+            </div>
+          </div>
+        </div>
+
       </body>
     </div>
   );
