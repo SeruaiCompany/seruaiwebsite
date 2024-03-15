@@ -4,7 +4,7 @@ import dropdown from './dropdown.svg'
 import burgermenu from './burgermenu.svg'
 
 // Import
-import bannervideo from '../src/herovideo.mp4'
+import bannervideo from '../src/tempherovideo.mp4'
 import React, { useState, useEffect } from 'react';
 
 
@@ -112,6 +112,17 @@ function App() {
           <video class="HeroVideo" muted loop autoPlay>   
           <source src={bannervideo}/>
           </video>
+        </div>
+
+        <div class="ArticlesHolder"> 
+          <h1> Articles </h1>
+          <div class="Articles">
+            <div class="Article"> 
+              <img/>
+              <h2> </h2>
+              <p> </p>
+            </div>
+          </div>
         </div>
 
       </body>

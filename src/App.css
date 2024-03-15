@@ -171,6 +171,10 @@ button {
   font-size: 1.7vh;
 }
 
+.ArticlesHolder h1 {
+  color: white;
+}
+
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 768px) {
   .HeroContainer {
