@@ -4,7 +4,7 @@ import dropdown from './dropdown.svg'
 import burgermenu from './burgermenu.svg'
 
 // Import
-import bannervideo from '../src/herovid.mp4'
+import bannervideo from '../src/herovideo.mp4'
 import React, { useState, useEffect } from 'react';
 
 
