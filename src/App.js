@@ -2,6 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import dropdown from './dropdown.svg'
 import burgermenu from './burgermenu.svg'
+import Article1 from './Article.svg'
+import Article2 from './Article2.svg'
+import Article3 from './Article3.svg'
+import Article4 from './article4.svg'
+import seruailogo from './seruailogo.svg'
 
 // Import
 import bannervideo from '../src/tempherovideo.mp4'
@@ -53,7 +58,6 @@ function App() {
                   </div>
                   <div class="DropdownContent">  
                     <a> Wolfgang </a>
-                    <a> Protactia </a>
                     <a> Wolfgang Attacha </a>
                   </div>
                 </div>
@@ -85,7 +89,6 @@ function App() {
               <div class="NavProducts">  
                 <h3 class="NavLink"> Products </h3>    
                 <a> Wolfgang </a>
-                <a> Protactia </a>
                 <a> Wolfgang Attacha </a>
               </div>
               <div class="NavProducts">  
@@ -115,21 +118,86 @@ function App() {
         </div>
 
         <div class="ArticlesHolder"> 
-          <h1> Articles </h1>
-          <div class="Articles">
-            <div class="Article"> 
-              <img/>
-              <h2> </h2>
-              <p> </p>
+          <div class="ArticlesDsiplay">
+            <h1 class="ArticleTitle"> Articles </h1>
+            <div class="Articles">
+
+              <div class="Article"> 
+                <img src={Article1} />
+                <h2> Real Time Assistance with Compania </h2>
+                <p> No more following instructions from a text prompt </p>
+              </div>
+
+              <div class="Article"> 
+                <img src={Article4} />
+                <h2> Catching Cheaters with Wolfgang </h2>
+                <p> Implementing Wolfgang as your anticheat solution </p>
+              </div>
+
+              <div class="Article"> 
+                <img src={Article3} />
+                <h2> Adding Wolfgang to your anticheat </h2>
+                <p> Impower your current anticheat solution with AI</p>
+              </div>
+
+              <div class="Article"> 
+                <img src={Article2} />
+                <h2> The mission of Seruai </h2>
+                <p> The beginning of something great </p>
+              </div>
+
             </div>
           </div>
         </div>
 
       </body>
+
+      <footer> 
+        <div class="FooterHolder"> 
+          <div class="FooterContainers">
+
+            <div class="FooterLinksContainers">  
+      
+              <div class="FooterLinks">        
+                <a class="FooterTitle"> Products </a>
+                <a> Wolfgang </a>
+                <a> Wolfgang Attacha </a>
+              </div>
+
+              <div class="FooterLinks"> 
+                <a class="FooterTitle"> Research </a>
+                <a> Compania </a>
+              </div>
+
+              <div class="FooterLinks"> 
+                <a class="FooterTitle"> Company </a>
+                <a> Careers </a>
+                <a> Mission </a>
+              </div>
+
+              <div class="FooterLinks"> 
+                <a class="FooterTitle"> External </a>
+                <a> Github </a>
+              </div>
+
+              <div class="FooterLinks"> 
+                <a class="FooterTitle"> Shortcuts </a>
+                <a> Homepage </a>
+                <a> Terms of Service </a>
+              </div>
+
+            </div> 
+    
+            <img src={seruailogo} />
+            <p> Seruai 2024 © </p>
+
+          </div>
+        </div>
+      </footer>
+
     </div>
   );
 }
-
 
 
 export default App;

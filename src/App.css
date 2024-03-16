@@ -171,8 +171,97 @@ button {
   font-size: 1.7vh;
 }
 
-.ArticlesHolder h1 {
+.ArticleTitle {
   color: white;
+}
+
+.ArticlesHolder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.ArticleTitle {
+  color: white;
+  font-family: roboto;
+  font-size: 2.5vh;
+  margin-left: -7%;
+  margin-bottom: 2.5%;
+}
+
+.Articles {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.Article img {
+  width: 30vh;
+  height: auto;
+  border-radius: 10px;
+}
+
+.Article {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+.Article h2 {
+  font-family: roboto;
+  font-size: 1.6vh;
+}
+
+.Article p {
+  font-family: roboto;
+  font-size: 1.3vh;
+}
+
+.FooterHolder {
+  display: flex;
+  width: 100%;
+  margin-top: 7%;
+}
+
+.FooterContainers {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: roboto;
+  width: 100%;
+}
+
+.FooterLinksContainers {
+  display: flex;
+  margin-bottom: 2.5%;
+  justify-content: center;
+}
+
+.FooterLinks {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.FooterLinks a {
+  margin-bottom: 8%;
+}
+
+.FooterTitle {
+  font-weight: 500;
+  padding-bottom: 4.5%;
+}
+
+.FooterContainers p {
+  text-align: center;
+}
+
+.FooterContainers img {
+  width: 4vh;
+  height: auto;
+  align-self: center;
+  margin-bottom: 0.5%;
 }
 
 /* Media Query for Mobile Devices */
