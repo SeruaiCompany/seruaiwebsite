@@ -118,7 +118,7 @@ function App() {
         </div>
 
         <div class="ArticlesHolder"> 
-          <div class="ArticlesDsiplay">
+          <div class="ArticlesDisplay">
             <h1 class="ArticleTitle"> Articles </h1>
             <div class="Articles">
 

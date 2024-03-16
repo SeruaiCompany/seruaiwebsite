@@ -179,7 +179,7 @@ button {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 
 .ArticleTitle {
@@ -307,6 +307,31 @@ button {
     width: 15vh;
     height: 5vh;
     font-size: 1.75vh;
+  }
+
+  .Articles {
+    flex-direction: column;
+  }
+
+  .Article {
+    margin-bottom: 9%;
+  }
+
+  .ArticleTitle {
+    padding: 0%;
+    margin: 0%;
+    padding-left: 4%;
+    padding-bottom: 7%;
+  }
+
+  .ArticlesDisplay {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+
+  .FooterLinksContainers {
+    flex-direction: column;
   }
 
 }
