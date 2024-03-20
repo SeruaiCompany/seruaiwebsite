@@ -1,9 +1,11 @@
+/* Centering the navigation bar */
 .CenterNavBar {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
+/* Styling for the navigation bar */
 .Navbar {
   display: flex;
   position: absolute;
@@ -15,6 +17,7 @@
   font-family: inter;
 }
 
+/* Styling for the logo/image within the navigation bar */
 .Navbar img {
   width: auto;
   height: 7.5vh;
@@ -22,6 +25,7 @@
   padding-left: 1%;
 }
 
+/* Styling for the list of navigation items */
 .ItemsList {
   display: flex;
   flex: 5;
@@ -30,16 +34,19 @@
   padding-right: 5%;
 }
 
+/* Styling for the title item within the navigation */
 .TitleItem {
   display: flex;
 }
 
+/* Styling for the icon within the title item */
 .TitleItem img {
   height: auto;
   width: 1vh;
   padding-left: 7%;
 }
 
+/* Styling for the navigation links */
 .NavLink {
   padding: none;
   font-size: 2vh;
@@ -47,6 +54,7 @@
   font-weight: 450;
 }
 
+/* Styling for the dropdown content */
 .DropdownContent {
   position: absolute;
   display: none;
@@ -54,6 +62,7 @@
   flex-direction: column;
 }
 
+/* Styling for the links within the dropdown */
 .DropdownContent a {
   width: 100%;
   font-weight: 400;
@@ -62,23 +71,21 @@
   margin-bottom: 10%;
 }
 
+/* Displaying dropdown content on hover */
 .DropdownItem:hover .DropdownContent {
   display: flex;
 }
 
+/* Styling for the hero container */
 .HeroContainer {
   position: relative;
-
-  /* Minimum Height & Maximum Height */
-  background-color: black;
-
+  background-color: black; /* Background color */
   width: 100%;
-  min-height: 80vh;
-
-  /* Hide Overflow of Video */
-  overflow: hidden;
+  min-height: 80vh; /* Minimum height */
+  overflow: hidden; /* Hide overflow */
 }
 
+/* Styling for the hero video */
 .HeroVideo {
   height: 100vh;
   width: 100%;
@@ -86,16 +93,19 @@
   position: absolute;
 }
 
+/* Styling for the burger menu item */
 .BurgerItem {
   display: none;
   height: auto;
 }
 
+/* Styling for the burger menu icon */
 .BurgerItem img {
   height: auto;
   width: 3.8vh;
 }
 
+/* Styling for the burger menu */
 .BurgerMenu {
   display: none;
   position: absolute;
@@ -105,11 +115,13 @@
   height: 100%;
 }
 
+/* Removing default button styles */
 button {
   background-color: transparent;
   border: none;
 }
 
+/* Styling for navigation items */
 .NavItems {
   margin-top: 13vh;
   padding-left: 15%;
@@ -117,6 +129,7 @@ button {
   flex-direction: column;
 }
 
+/* Styling for navigation products */
 .NavProducts {
   font-family: inter;
   display: flex;
@@ -125,14 +138,17 @@ button {
   flex-direction: column;
 }
 
+/* Styling for navigation product links */
 .NavProducts .NavLink {
   font-weight: 500;
 }
 
+/* Styling for navigation product links */
 .NavProducts a {
   margin-bottom: 10%;
 }
 
+/* Styling for the hero text holder */
 .HeroTextHolder {
   position: absolute;
   display: flex;
@@ -141,6 +157,7 @@ button {
   margin-top: 17%;
 }
 
+/* Styling for the hero text */
 .HeroText {
   flex: 1;
   z-index: 1;
@@ -148,16 +165,19 @@ button {
   padding-left: 10%;
 }
 
+/* Styling for the hero title */
 .HeroText h1 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 6vh;
 }
 
+/* Styling for the hero subtitle */
 .HeroText h2 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2vh;
 }
 
+/* Styling for buttons within hero text holder */
 .HeroTextHolder button {
   background-color: rgba(192, 192, 192, 0.088);
   backdrop-filter: blur(2.5px);
@@ -171,10 +191,12 @@ button {
   font-size: 1.7vh;
 }
 
+/* Styling for article title */
 .ArticleTitle {
   color: white;
 }
 
+/* Styling for articles holder */
 .ArticlesHolder {
   width: 100%;
   display: flex;
@@ -182,6 +204,7 @@ button {
   margin-top: 5%;
 }
 
+/* Styling for article title */
 .ArticleTitle {
   color: white;
   font-family: roboto;
@@ -190,39 +213,46 @@ button {
   margin-bottom: 2.5%;
 }
 
+/* Styling for articles */
 .Articles {
   color: white;
   display: flex;
   justify-content: center;
 }
 
+/* Styling for article image */
 .Article img {
   width: 30vh;
   height: auto;
   border-radius: 10px;
 }
 
+/* Styling for articles */
 .Article {
   padding-left: 2.5%;
   padding-right: 2.5%;
 }
 
+/* Styling for article title */
 .Article h2 {
   font-family: roboto;
   font-size: 1.6vh;
 }
 
+/* Styling for article paragraph */
 .Article p {
   font-family: roboto;
   font-size: 1.3vh;
 }
 
+/* Styling for footer holder */
 .FooterHolder {
   display: flex;
   width: 100%;
   margin-top: 7%;
 }
 
+/* Styling for footer containers */
 .FooterContainers {
   display: flex;
   flex-direction: column;
@@ -231,12 +261,14 @@ button {
   width: 100%;
 }
 
+/* Styling for footer links containers */
 .FooterLinksContainers {
   display: flex;
   margin-bottom: 2.5%;
   justify-content: center;
 }
 
+/* Styling for footer links */
 .FooterLinks {
   display: flex;
   flex-direction: column;
@@ -244,19 +276,23 @@ button {
   padding-right: 5%;
 }
 
+/* Styling for footer links */
 .FooterLinks a {
   margin-bottom: 8%;
 }
 
+/* Styling for footer title */
 .FooterTitle {
   font-weight: 500;
   padding-bottom: 4.5%;
 }
 
+/* Styling for footer containers paragraphs */
 .FooterContainers p {
   text-align: center;
 }
 
+/* Styling for footer containers images */
 .FooterContainers img {
   width: 4vh;
   height: auto;
@@ -356,7 +392,6 @@ button {
     font-weight: 500;
     padding-bottom: 1.5%;
   }  
-
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -377,7 +412,7 @@ button {
 }
 
 @media (min-width: 2100px) {
-  
+  /* Styles for screens with a minimum width of 2100px */
   .NavLink {
     font-size: 1.2vh;
   }
@@ -399,5 +434,4 @@ button {
     font-size: 0.9vh;
     margin-bottom: 13%;
   }
-
 }

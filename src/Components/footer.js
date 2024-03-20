@@ -15,12 +15,11 @@ function BottomFooter() {
               <div className="FooterLinks">
                 <a className="FooterTitle"> Products </a>
                 <a> Wolfgang </a>
-                <a> Wolfgang Attacha </a>
               </div>
 
               <div className="FooterLinks">
                 <a className="FooterTitle"> Research </a>
-                <a> Compania </a>
+                <a> Future Products </a>
               </div>
 
               <div className="FooterLinks">

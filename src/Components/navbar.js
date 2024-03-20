@@ -48,7 +48,6 @@ function Navbar() {
                 </div>
                 <div className="DropdownContent">
                   <a> Wolfgang </a>
-                  <a> Wolfgang Attacha </a>
                 </div>
               </div>
 
@@ -58,7 +57,7 @@ function Navbar() {
                   <img src={dropdown} alt="Dropdown" />
                 </div>
                 <div className="DropdownContent">
-                  <a> Compania </a>
+                  <a> Future Products </a>
                 </div>
               </div>
               
@@ -85,12 +84,11 @@ function Navbar() {
             <div className="NavProducts">
               <h3 className="NavLink"> Products </h3>
               <a> Wolfgang </a>
-              <a> Wolfgang Attacha </a>
             </div>
 
             <div className="NavProducts">
               <h3 className="NavLink"> Research </h3>
-              <a> Compania </a>
+              <a> Future Products </a>
             </div>
 
             <div className="NavProducts">
