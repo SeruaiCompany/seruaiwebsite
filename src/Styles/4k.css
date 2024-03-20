@@ -1,0 +1,24 @@
+@media (min-width: 2100px) {
+    /* Styles for screens with a minimum width of 2100px */
+    .NavLink {
+      font-size: 1.2vh;
+    }
+  
+    .Navbar img {
+      height: 5vh;
+    }
+  
+    .TitleItem img {
+      width: 0.7vh;
+      height: auto;
+    }
+  
+    .DropdownContent {
+      font-size: 1vh;
+    }
+  
+    .DropdownContent a {
+      font-size: 0.9vh;
+      margin-bottom: 13%;
+    }
+  }

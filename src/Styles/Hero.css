@@ -1,0 +1,62 @@
+
+/* Styling for the hero container */
+.HeroContainer {
+    position: relative;
+    background-color: black; /* Background color */
+    width: 100%;
+    min-height: 80vh; /* Minimum height */
+    overflow: hidden; /* Hide overflow */
+}
+  
+  /* Styling for the hero video */
+.HeroVideo {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+/* Styling for the hero text holder */
+.HeroTextHolder {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    font-family: roboto;
+    margin-top: 17%;
+}
+  
+  /* Styling for the hero text */
+.HeroText {
+    flex: 1;
+    z-index: 1;
+    color: white;
+    padding-left: 10%;
+}
+  
+  /* Styling for the hero title */
+.HeroText h1 {
+    font-weight: 500;
+    font-size: 6vh;
+}
+  
+/* Styling for the hero subtitle */
+.HeroText h2 {
+    font-weight: 400;
+    font-size: 2vh;
+}
+  
+/* Styling for buttons within hero text holder */
+.HeroTextHolder button {
+    background-color: rgba(192, 192, 192, 0.088);
+    backdrop-filter: blur(2.5px);
+    color: white;
+    border-radius: 30px;
+    width: 145px;
+    height: 40px;
+    font-weight: 500;
+    font-family: roboto;
+    margin-top: 2%;
+    font-size: 1.7vh;
+}
+  

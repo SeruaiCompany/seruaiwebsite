@@ -1,0 +1,54 @@
+/* Styling for footer holder */
+.FooterHolder {
+    display: flex;
+    width: 100%;
+    margin-top: 7%;
+  }
+  
+  /* Styling for footer containers */
+  .FooterContainers {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: roboto;
+    width: 100%;
+  }
+  
+  /* Styling for footer links containers */
+  .FooterLinksContainers {
+    display: flex;
+    margin-bottom: 2.5%;
+    justify-content: center;
+  }
+  
+  /* Styling for footer links */
+  .FooterLinks {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  /* Styling for footer links */
+  .FooterLinks a {
+    margin-bottom: 8%;
+  }
+  
+  /* Styling for footer title */
+  .FooterTitle {
+    font-weight: 500;
+    padding-bottom: 4.5%;
+  }
+  
+  /* Styling for footer containers paragraphs */
+  .FooterContainers p {
+    text-align: center;
+  }
+  
+  /* Styling for footer containers images */
+  .FooterContainers img {
+    width: 4vh;
+    height: auto;
+    align-self: center;
+    margin-bottom: 0.5%;
+  }

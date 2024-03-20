@@ -1,0 +1,86 @@
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+  .HeroContainer {
+    min-height: 80vh; /* Adjust the minimum height for smaller screens */
+  }
+  .ItemsList {
+    flex-direction: column;
+    display: none;
+  }
+
+  .BurgerItem {
+    display: block;
+    justify-self: flex-end;
+    padding-right: 7%;
+  }
+
+  .Navbar Img {
+    padding: 0%;
+    justify-self: flex-start;
+    flex: 0;
+    padding-left: 3%;
+  }
+
+  .BurgerMenu.open {
+    display: flex;
+  }
+
+  .HeroText {
+    margin-top: 50%;
+    padding-left: 6%;
+  }
+
+  .HeroText h1 {
+    font-size: 3.5vh;
+  }
+
+  .HeroText h2 {
+    font-size: 1.8vh;
+  }
+
+  .HeroText button {
+    margin-top: 3%;
+    width: 15vh;
+    height: 5vh;
+    font-size: 1.75vh;
+  }
+
+  .FooterLinksContainers {
+    flex-direction: column;
+  }
+
+  .NavItems {
+    padding-left: 7%;
+  }
+
+  .FooterLinks a {
+    margin-bottom: 3%;
+  }
+  
+  .FooterLinks {
+    margin-bottom: 5%;
+  }
+
+  .FooterTitle {
+    font-weight: 500;
+    padding-bottom: 1.5%;
+  }  
+}
+
+/* Ipad */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for screen widths between 768px and 1024px */
+  .HeroText button {
+    width: 15vh;
+    height: 4.5vh;
+  }
+  .HeroText h1 {
+    font-size: 5vh;
+  }
+  .HeroText {
+    padding-left: 5%;
+  }
+  .HeroTextHolder {
+    margin-top: 27vh;
+  }
+}

@@ -1,4 +1,9 @@
 import './App.css';
+import './Styles/Mobile.css'
+import './Styles/Hero.css'
+import './Styles/Navbar.css'
+import './Styles/Footer.css'
+import './Styles/4k.css'
 
 import Navbar from './Components/navbar'
 import Footer from './Components/footer'
