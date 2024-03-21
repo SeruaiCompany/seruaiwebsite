@@ -1,4 +1,5 @@
 import seruailogo from '../Assets/seruailogo.svg';
+import { Link } from 'react-router-dom';
 
 function BottomFooter() {
   return (
@@ -14,18 +15,18 @@ function BottomFooter() {
               {/* Footer Links */}
               <div className="FooterLinks">
                 <a className="FooterTitle"> Products </a>
-                <a> Wolfgang </a>
+                <a> <Link to="/wolfgang"> wolfgang </Link> </a>
               </div>
 
               <div className="FooterLinks">
                 <a className="FooterTitle"> Research </a>
-                <a> Future Products </a>
+                <a> <Link to="/futureproducts"> Future products </Link> </a>
               </div>
 
               <div className="FooterLinks">
                 <a className="FooterTitle"> Company </a>
                 <a> Careers </a>
-                <a> Mission </a>
+                <a> <Link to="/mission"> Mission </Link> </a>
               </div>
 
               <div className="FooterLinks">
@@ -35,8 +36,8 @@ function BottomFooter() {
 
               <div className="FooterLinks">
                 <a className="FooterTitle"> Shortcuts </a>
-                <a> Homepage </a>
-                <a> Terms of Service </a>
+                <a> <Link to="/"> Homepage </Link> </a>
+                <a> <Link to="/termsofservice"> Terms of Service </Link> </a>
               </div>
 
             </div>
