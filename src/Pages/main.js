@@ -22,7 +22,7 @@ function Main() {
         <Navbar/>
 
         {/* Hero */}
-        <HeroText Title1={"Introducing Wolfgang:"} Title2={"our latest product that provides control"} SubTitle={"New AI powered anticheat that excels in both prevention and catching cheaters in action"} ButtonText={"Request a Demo"} Linkto={"/contactpage"} />
+        <HeroText Title1={"Introducing Wolfgang:"} Title2={"our latest product that provides power"} SubTitle={"A new AI driven anticheat that is cheaper, faster, and better for game developers than ever made before."} ButtonText={"Request a Demo"} Linkto={"/contactpage"} />
         <HeroVideo VideoPath={bannervideo} />
 
         {/* Page Body Code Below */}
