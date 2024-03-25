@@ -13,6 +13,8 @@ import HeroText from '../Components/herotext';
 import bannervideo from '../Assets/tempherovideo.mp4';
 import WolfgangReport from '../Assets/wolfgangreport.svg'
 
+import { Link } from 'react-router-dom';
+
 function Main() {
 
   return (
@@ -38,7 +40,7 @@ function Main() {
               stage is designed to gather data off of the cheaters for training purposes. For example, the Prevention Stage gathers data from analyzing DLL injection methods, memory reading process, in order
               for the anticheat to patch itself. The Active stage gathers data off of...
             </p>
-            <a> Learn more about Wolfgang... </a>
+            <a> <Link to="/wolfgang"> Learn more about Wolfgang... </Link> </a>
           </div>
         </div>
 
