@@ -11,6 +11,7 @@ import HeroVideo from '../Components/herovideo'
 import HeroText from '../Components/herotext';
 
 import bannervideo from '../Assets/tempherovideo.mp4';
+import WolfgangReport from '../Assets/wolfgangreport.svg'
 
 function Main() {
 
@@ -27,7 +28,19 @@ function Main() {
 
         {/* Page Body Code Below */}
 
-        
+        <h1 className="TechnicalReport"> Technical Reports </h1>
+        <div class="MainpageContent"> 
+          <img src={WolfgangReport} alt='wolfgangtechnicalreport' />
+          <div class="MainpageText">
+            <h2> The specifics behind the Wolfgang Anticheat </h2>
+            <p> Wolfgang consists of multiple machine learning models to achieve a three stage process <br/> that is able to catch a variety of cheats. The advantage behind Wolfgang over
+              all other <br/> anticheats is that Wolfgang builds its knowledge off of Cheaters data against them. <br/> Every stage in the system, i.e Prevention Stage, Active Stage, and Post report 
+              stage is <br/> designed to gather data off of the cheaters for training purposes. For example, the Prevention <br/> Stage gathers data from analyzing DLL injection methods, memory reading process, in order
+              <br/> for the anticheat to patch itself. The Active stage gathers data off of...
+            </p>
+            <a> Learn more </a>
+          </div>
+        </div>
 
       </body>
       <Footer/>

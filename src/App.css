@@ -1,0 +1,38 @@
+.TechnicalReport {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2vh;
+    font-family: roboto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-weight: 500;
+}
+
+.MainpageContent {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    font-family: roboto;
+}
+
+.MainpageContent img {
+    height: auto;
+    width: 40vh;
+    border-radius: 5px;
+    margin-right: 4%;
+}
+
+.MainpageContent h2 {
+    font-size: 3.2vh;
+}
+
+.MainpageContent p {
+    font-size: 1.8vh;
+    overflow-wrap: normal;
+    line-height: 3vh;
+}
+
+.MainpageContent a {
+    font-weight: 500;
+}
