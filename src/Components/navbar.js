@@ -14,7 +14,11 @@ function Navbar() {
 
   // Effect hook to add/remove class based on menu state
   useEffect(() => {
-    document.body.classList.toggle('NoScroll', isMenuOpen);
+    if (isMenuOpen) {
+      document.body.classList.add('NoScroll');
+    } else {
+      document.body.classList.remove('NoScroll');
+    }
 
     return () => {
       document.body.classList.remove('NoScroll');
