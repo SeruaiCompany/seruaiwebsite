@@ -5,6 +5,10 @@
     margin-top: 7%;
   }
   
+  Footer {
+    background-color: black;
+  }
+
   /* Styling for footer containers */
   .FooterContainers {
     display: flex;
