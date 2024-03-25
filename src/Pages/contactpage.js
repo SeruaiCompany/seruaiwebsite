@@ -12,7 +12,7 @@ import HeroText from '../Components/herotext';
 
 import bannervideo from '../Assets/tempherovideo.mp4';
 
-function Main() {
+function Contactpage() {
 
   return (
 
@@ -22,7 +22,7 @@ function Main() {
         <Navbar/>
 
         {/* Hero */}
-        <HeroText Title1={"Introducing Wolfgang:"} Title2={"our latest product that provides control"} SubTitle={"New AI powered anticheat that excels in both prevention and catching cheaters in action"} ButtonText={"Request a Demo"} Linkto={"/contactpage"} />
+        <HeroText Title1={"Introducing Wolfgang:"} Title2={"our latest product that provides control"} SubTitle={"New AI powered anticheat that excels in both prevention and catching cheaters in action"} ButtonText={"Request a Demo"} />
         <HeroVideo VideoPath={bannervideo} />
 
         {/* Page Body Code Below */}
@@ -36,4 +36,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Contactpage;

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import logo from '../Assets/logo.svg';
 import dropdown from '../Assets/dropdown.svg';
 import burgermenu from '../Assets/burgermenu.svg';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -30,7 +31,7 @@ function Navbar() {
           <div className={`Navbar ${isMenuOpen ? 'open' : ''}`}>
 
             {/* Logo */}
-            <img src={logo} alt="Logo" />
+            <Link class="LogoHolder" to="/" > <img src={logo} alt="Logo" className='Logo' /> </Link>
 
             {/* Burger Toggle Mobile Only */} 
             <button className="BurgerItem" onClick={toggleMenu}>
@@ -47,7 +48,7 @@ function Navbar() {
                   <img src={dropdown} alt="Dropdown" />
                 </div>
                 <div className="DropdownContent">
-                  <a> Wolfgang </a>
+                  <a> <Link to="/wolfgang"> Wolfgang </Link> </a>
                 </div>
               </div>
 
@@ -57,7 +58,7 @@ function Navbar() {
                   <img src={dropdown} alt="Dropdown" />
                 </div>
                 <div className="DropdownContent">
-                  <a> Future Products </a>
+                  <a> <Link to="/futureproducts"> Future products </Link> </a>
                 </div>
               </div>
               
@@ -66,7 +67,7 @@ function Navbar() {
               </div>
 
               <div className="DropdownItem">
-                <h3 className="NavLink"> Mission </h3>
+                <h3 className="NavLink"> <Link to="/mission"> Mission </Link> </h3>
               </div>
 
             </div>
@@ -83,18 +84,18 @@ function Navbar() {
 
             <div className="NavProducts">
               <h3 className="NavLink"> Products </h3>
-              <a> Wolfgang </a>
+              <a> <Link to="/wolfgang"> Wolfgang </Link> </a>
             </div>
 
             <div className="NavProducts">
               <h3 className="NavLink"> Research </h3>
-              <a> Future Products </a>
+              <a> <Link to="/futureproducts"> Future products </Link> </a>
             </div>
 
             <div className="NavProducts">
               <h3 className="NavLink"> Company </h3>
               <a> Careers </a>
-              <a> Mission </a>
+              <a> <Link to="/mission"> Mission </Link> </a>
             </div>
 
           </div>

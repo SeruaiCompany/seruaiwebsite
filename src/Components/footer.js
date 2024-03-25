@@ -31,7 +31,7 @@ function BottomFooter() {
 
               <div className="FooterLinks">
                 <a className="FooterTitle"> External </a>
-                <a> Github </a>
+                <a href='https://github.com/SeruAICompany'> Github </a>
               </div>
 
               <div className="FooterLinks">

@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
-function HeroText( { Title1, Title2, SubTitle, ButtonText} ) {
+function HeroText( { Title1, Title2, SubTitle, ButtonText, Linkto} ) {
 
     return (
   
@@ -11,7 +12,7 @@ function HeroText( { Title1, Title2, SubTitle, ButtonText} ) {
             <h1> {Title1} <br></br> {Title2} </h1>
             <h2> {SubTitle} </h2>
 
-            <button> {ButtonText}</button>
+            <button> <Link to={Linkto}> {ButtonText} </Link>  </button>
             
             </div>
 
