@@ -65,27 +65,6 @@
     .HeroContainer {
       min-height: 80vh; /* Adjust the minimum height for smaller screens */
     }
-    .ItemsList {
-      flex-direction: column;
-      display: none;
-    }
-  
-    .BurgerItem {
-      display: block;
-      justify-self: flex-end;
-      padding-right: 7%;
-    }
-  
-    .Navbar Img {
-      padding: 0%;
-      justify-self: flex-start;
-      flex: 0;
-      padding-left: 3%;
-    }
-  
-    .BurgerMenu.open {
-      display: flex;
-    }
   
     .HeroText {
       margin-top: 50%;
@@ -107,26 +86,6 @@
       font-size: 1.75vh;
     }
   
-    .FooterLinksContainers {
-      flex-direction: column;
-    }
-  
-    .NavItems {
-      padding-left: 7%;
-    }
-  
-    .FooterLinks a {
-      margin-bottom: 3%;
-    }
-    
-    .FooterLinks {
-      margin-bottom: 5%;
-    }
-  
-    .FooterTitle {
-      font-weight: 500;
-      padding-bottom: 1.5%;
-    }  
   }
   
   /* Ipad */

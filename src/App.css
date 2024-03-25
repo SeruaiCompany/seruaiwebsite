@@ -31,8 +31,57 @@
     font-size: 1.8vh;
     overflow-wrap: normal;
     line-height: 3vh;
+    width: 77vh;
 }
 
 .MainpageContent a {
     font-weight: 500;
+    font-size: 1.5vh;
 }
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    
+    .TechnicalReport {
+        margin-top: 10%;
+        margin-bottom: 6%;
+    }
+
+    .MainpageContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15%;
+    }
+
+    .MainpageContent p {
+        display: none;
+    }
+
+    .MainpageContent img {
+        width: 30vh;
+        align-self: center;
+        margin-right: 0%;
+    }
+
+    .MainpageContent h2 {
+        font-size: 1.5vh;
+    }
+
+    .MainpageContent a {
+        font-size: 1.3vh;
+    }
+
+}
+  
+  /* Ipad */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    
+    .MainpageContent {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+  

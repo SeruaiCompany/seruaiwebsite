@@ -57,3 +57,23 @@
     color: white;
     text-decoration: none;
   }
+
+  /* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+  .FooterLinksContainers {
+    flex-direction: column;
+  }
+
+  .FooterLinks a {
+    margin-bottom: 3%;
+  }
+  
+  .FooterLinks {
+    margin-bottom: 5%;
+  }
+
+  .FooterTitle {
+    font-weight: 500;
+    padding-bottom: 1.5%;
+  }  
+}

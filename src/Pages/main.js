@@ -33,12 +33,12 @@ function Main() {
           <img src={WolfgangReport} alt='wolfgangtechnicalreport' />
           <div class="MainpageText">
             <h2> The specifics behind the Wolfgang Anticheat </h2>
-            <p> Wolfgang consists of multiple machine learning models to achieve a three stage process <br/> that is able to catch a variety of cheats. The advantage behind Wolfgang over
-              all other <br/> anticheats is that Wolfgang builds its knowledge off of Cheaters data against them. <br/> Every stage in the system, i.e Prevention Stage, Active Stage, and Post report 
-              stage is <br/> designed to gather data off of the cheaters for training purposes. For example, the Prevention <br/> Stage gathers data from analyzing DLL injection methods, memory reading process, in order
-              <br/> for the anticheat to patch itself. The Active stage gathers data off of...
+            <p> Wolfgang consists of multiple machine learning models to achieve a three stage process that is able to catch a variety of cheats. The advantage behind Wolfgang over
+              all other anticheats is that Wolfgang builds its knowledge off of Cheaters data against them. Every stage in the system, i.e Prevention Stage, Active Stage, and Post report 
+              stage is designed to gather data off of the cheaters for training purposes. For example, the Prevention Stage gathers data from analyzing DLL injection methods, memory reading process, in order
+              for the anticheat to patch itself. The Active stage gathers data off of...
             </p>
-            <a> Learn more </a>
+            <a> Learn more about Wolfgang... </a>
           </div>
         </div>
 
