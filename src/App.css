@@ -1,5 +1,5 @@
 .TechnicalReport {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 2vh;
     font-family: roboto;
@@ -12,8 +12,9 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    color: white;
+    color: black;
     font-family: roboto;
+    padding-bottom: 1.5%;
 }
 
 .MainpageContent img {
@@ -37,6 +38,7 @@
 .MainpageContent a {
     font-weight: 500;
     font-size: 1.5vh;
+    color: black;
 }
 
 /* Media Query for Mobile Devices */
