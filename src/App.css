@@ -43,8 +43,8 @@
 @media only screen and (max-width: 768px) {
     
     .TechnicalReport {
-        margin-top: 10%;
-        margin-bottom: 6%;
+        margin-top: 14%;
+        margin-bottom: 8%;
     }
 
     .MainpageContent {
@@ -78,9 +78,35 @@
   /* Ipad */
   @media (min-width: 769px) and (max-width: 1024px) {
     
+    .TechnicalReport {
+        margin-top: 14%;
+        margin-bottom: 8%;
+    }
+
     .MainpageContent {
+        display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
+        margin-bottom: 15%;
+    }
+
+    .MainpageContent p {
+        display: none;
+    }
+
+    .MainpageContent img {
+        width: 30vh;
+        align-self: center;
+        margin-right: 0%;
+    }
+
+    .MainpageContent h2 {
+        font-size: 1.5vh;
+    }
+
+    .MainpageContent a {
+        font-size: 1.3vh;
     }
 
 }
