@@ -25,7 +25,7 @@ function Main() {
         <Navbar/>
 
         {/* Hero */}
-        <HeroText Title1={"Introducing Wolfgang:"} Title2={"our latest product that provides power"} SubTitle={"A new AI driven anticheat that is cheaper, faster, and better for game developers than ever made before."} ButtonText={"Request a Demo"} Linkto={"/contactpage"} />
+        <HeroText Title1={"Introducing Wolfgang:"} Title2={"our latest product that provides power"} SubTitle={"Gain back control with a new anticheat completely driven by artificial intelligence."} ButtonText={"Request a Demo"} Linkto={"/contactpage"} />
         <HeroVideo VideoPath={bannervideo} />
 
         {/* Page Body Code Below */}
