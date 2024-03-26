@@ -15,7 +15,7 @@ function BottomFooter() {
               {/* Footer Links */}
               <div className="FooterLinks">
                 <a className="FooterTitle"> Products </a>
-                <a> <Link to="/wolfgang"> wolfgang </Link> </a>
+                <a> <Link to="/wolfgang"> Wolfgang </Link> </a>
               </div>
 
               <div className="FooterLinks">
