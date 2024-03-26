@@ -10,7 +10,7 @@ import Footer from '../Components/footer'
 import HeroVideo from '../Components/herovideo'
 import HeroText from '../Components/herotext';
 
-import bannervideo from '../Assets/tempherovideo.mp4';
+import bannervideo from '../Assets/herovideo.mp4';
 
 function termsofservice() {
 
