@@ -4,6 +4,7 @@ import '../Styles/Hero.css'
 import '../Styles/Navbar.css'
 import '../Styles/Footer.css'
 import '../Styles/4k.css'
+import '../PageStyles/main.css'
 
 import Navbar from '../Components/navbar'
 import Footer from '../Components/footer'
@@ -34,13 +35,11 @@ function Main() {
         <div class="MainpageContent"> 
           <img src={WolfgangReport} alt='wolfgangtechnicalreport' />
           <div class="MainpageText">
-            <h2> The specifics behind the Wolfgang Anticheat </h2>
-            <p> Wolfgang consists of multiple machine learning models to achieve a three stage process that is able to catch a variety of cheats. The advantage behind Wolfgang over
-              all other anticheats is that Wolfgang builds its knowledge off of Cheaters data against them. Every stage in the system, i.e Prevention Stage, Active Stage, and Post report 
-              stage is designed to gather data off of the cheaters for training purposes. For example, the Prevention Stage gathers data from analyzing DLL injection methods, memory reading process, in order
-              for the anticheat to patch itself. The Active stage gathers data off of...
+            <h2> The specifics of Wolfgang </h2>
+            <p> The anticheat consists of three machine learning models that are created to achieve the 3 steps of improving experiences for players. The steps consist of the 'Pregame Patching', 'Midmatch Analyzing', 'Report Processing'. The first step is dedicated
+              to catching cheaters before they even enter the game through DLL analyzation, etc. The second step is catching cheaters mid game through gameplay analyzation, and the third step is automatic player report processing.
             </p>
-            <a> <Link to="/wolfgang"> Learn more about Wolfgang... </Link> </a>
+            <button class="TechnicalReportButton"> <Link to="/wolfgang"> <a> Read Technical Report </a> </Link> </button>
           </div>
         </div>
 
