@@ -10,7 +10,7 @@ import Footer from '../Components/footer'
 import HeroVideo from '../Components/herovideo'
 import HeroText from '../Components/herotext';
 
-import bannervideo from '../Assets/herovideo.mp4';
+import bannervideo from '../Assets/BlankHero.mp4';
 
 function futureproducts() {
 
@@ -22,7 +22,7 @@ function futureproducts() {
         <Navbar/>
 
         {/* Hero */}
-        <HeroText Title1={"Introducing Wolfgang:"} Title2={"our latest product that provides control"} SubTitle={"New AI powered anticheat that excels in both prevention and catching cheaters in action"} ButtonText={"Request a Demo"} />
+        <HeroText Title1={"Researching, Innovating, Applying."} Title2={"Creating products that make a positive change"} SubTitle={"From creating software that make the internet a safer space to providing tools to impower other creators, we change lives."} ButtonText={"Contact us"} Linkto={"/contactpage"} />
         <HeroVideo VideoPath={bannervideo} />
 
         {/* Page Body Code Below */}

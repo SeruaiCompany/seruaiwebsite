@@ -10,7 +10,7 @@ import Footer from '../Components/footer'
 import HeroVideo from '../Components/herovideo'
 import HeroText from '../Components/herotext';
 
-import bannervideo from '../Assets/herovideo.mp4';
+import bannervideo from '../Assets/BlankHero.mp4';
 
 function mission() {
 
@@ -22,7 +22,7 @@ function mission() {
         <Navbar/>
 
         {/* Hero */}
-        <HeroText Title1={"Introducing Wolfgang:"} Title2={"our latest product that provides control"} SubTitle={"New AI powered anticheat that excels in both prevention and catching cheaters in action"} ButtonText={"Request a Demo"} />
+        <HeroText Title1={"Seruai's Purpose is to use artificial intelligence"} Title2={"to make a positive impact on people's lives"} SubTitle={"We safely use and research artificial intelligence to achieve predicted results."} ButtonText={"Contact us"} Linkto={"/contactpage"} />
         <HeroVideo VideoPath={bannervideo} />
 
         {/* Page Body Code Below */}
