@@ -3,7 +3,7 @@ function HeroVideo( { VideoPath } ) {
 
     <div className="HeroContainer">
 
-        <video playsinline className="HeroVideo" muted loop autoplay>
+        <video className="HeroVideo" muted loop autoPlay>
         <source src={VideoPath} type="video/mp4" />
         </video>
 
