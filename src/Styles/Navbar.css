@@ -10,7 +10,7 @@
     display: flex;
     position: absolute;
     z-index: 3;
-    margin-top: 4vh;
+    margin-top: 2.5%;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -20,7 +20,7 @@
   /* Styling for the logo/image within the navigation bar */
   .Navbar img {
     width: auto;
-    height: 7.5vh;
+    height: 3.7em;
     flex: 1;
   }
   
@@ -46,14 +46,14 @@
   /* Styling for the icon within the title item */
   .TitleItem img {
     height: auto;
-    width: 1vh;
+    width: 0.5em;
     padding-left: 7%;
   }
   
   /* Styling for the navigation links */
   .NavLink {
     padding: none;
-    font-size: 2vh;
+    font-size: 1.05em;
     color: white;
     font-weight: 450;
   }
@@ -62,7 +62,7 @@
   .DropdownContent {
     position: absolute;
     display: none;
-    font-size: 1.5vh;
+    font-size: 1.5em;
     flex-direction: column;
   }
   
@@ -70,7 +70,7 @@
   .DropdownContent a {
     width: 100%;
     font-weight: 400;
-    font-size: 1.5vh;
+    font-size: 0.75em;
     color: white;
     margin-bottom: 10%;
   }
@@ -89,7 +89,7 @@
 /* Styling for the burger menu icon */
 .BurgerItem img {
   height: auto;
-  width: 3.8vh;
+  width: 2.3em;
 }
 
 /* Styling for the burger menu */
@@ -110,7 +110,7 @@ button {
 
 /* Styling for navigation items */
 .NavItems {
-  margin-top: 13vh;
+  margin-top: 17%;
   padding-left: 15%;
   display: flex;
   flex-direction: column;
