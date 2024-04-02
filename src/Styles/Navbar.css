@@ -138,7 +138,7 @@ button {
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 768px) {
   .HeroContainer {
-    min-height: 80vh; /* Adjust the minimum height for smaller screens */
+    min-height: 45em; /* Adjust the minimum height for smaller screens */
   }
   .ItemsList {
     flex-direction: column;
