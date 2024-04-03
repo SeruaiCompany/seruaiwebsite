@@ -1,14 +1,10 @@
 function HeroVideo( { VideoPath } ) {
   return (
-
     <div className="HeroContainer">
-
-        <video className="HeroVideo" muted loop autoPlay>
-        <source src={VideoPath} type="video/mp4" />
-        </video>
-
+      <video muted autoPlay loop playsInline className="HeroVideo">
+        <source src={VideoPath} />
+      </video>
     </div>
-
   );
 }
 

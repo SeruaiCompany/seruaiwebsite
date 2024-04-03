@@ -4,13 +4,13 @@
     position: relative;
     background-color: black; /* Background color */
     width: 100%;
-    min-height: 80vh; /* Minimum height */
+    min-height: 41em; /* Minimum height */
     overflow: hidden; /* Hide overflow */
 }
   
   /* Styling for the hero video */
 .HeroVideo {
-    height: 100vh;
+    height: 52em;
     width: 100%;
     object-fit: cover;
     position: absolute;
@@ -37,13 +37,13 @@
   /* Styling for the hero title */
 .HeroText h1 {
     font-weight: 600;
-    font-size: 6.7vh;
+    font-size: 3.9em;
 }
   
 /* Styling for the hero subtitle */
 .HeroText h2 {
     font-weight: 500;
-    font-size: 2.3vh;
+    font-size: 1.25em;
     margin-top: -1.5%;
 }
   
@@ -58,13 +58,13 @@
     font-weight: 500;
     font-family: roboto;
     margin-top: 1%;
-    font-size: 1.7vh;
+    font-size: 0.92em;
 }
 
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 768px) {
     .HeroContainer {
-      min-height: 80vh; /* Adjust the minimum height for smaller screens */
+      min-height: 45em; /* Adjust the minimum height for smaller screens */
     }
   
     .HeroText {
