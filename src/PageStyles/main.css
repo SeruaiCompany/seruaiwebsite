@@ -1,7 +1,7 @@
 .TechnicalReport {
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 2vh;
+    font-size: 1.05em;
     font-family: roboto;
     margin-top: 4%;
     margin-bottom: 4%;
@@ -19,20 +19,20 @@
 
 .MainpageContent img {
     height: auto;
-    width: 37vh;
+    width: 19em;
     border-radius: 5px;
     margin-right: 4%;
 }
 
 .MainpageContent h2 {
-    font-size: 3.2vh;
+    font-size: 1.7em;
 }
 
 .MainpageContent p {
-    font-size: 1.65vh;
+    font-size: 1em;
     overflow-wrap: normal;
-    line-height: 3vh;
-    width: 77vh;
+    line-height: 1.5em;
+    width: 38em;
 }
 
 .TechnicalReportButton {
@@ -45,7 +45,7 @@
 
 .MainpageContent a {
     font-weight: 500;
-    font-size: 1.4vh;
+    font-size: 0.95em;
     color: white;
 }
 
@@ -66,23 +66,24 @@
     }
 
     .MainpageContent p {
-        width: 40vh;
+        width: 19em;
+        font-size: 0.95em;
     }
 
     .MainpageContent img {
-        width: 31vh;
+        width: 15em;
         align-self: center;
         margin-right: 0%;
         margin-bottom: 7%;
     }
 
     .MainpageContent h2 {
-        font-size: 2.5vh;
+        font-size: 1.05em;
         margin-bottom: 6%;
     }
 
     .MainpageContent a {
-        font-size: 1.3vh;
+        font-size: 1em;
     }
 
 
@@ -96,7 +97,7 @@
 
     .MainpageContent a {
         font-weight: 500;
-        font-size: 1.5vh;
+        font-size: 1em;
         color: white;
     }
 
@@ -119,18 +120,18 @@
     }
 
     .MainpageContent img {
-        width: 31vh;
+        width: 26em;
         align-self: center;
         margin-right: 0%;
         margin-bottom: 7%;
     }
 
     .MainpageContent p {
-        width: 40vh;
+        width: 40em;
     }
 
     .MainpageContent h2 {
-        font-size: 2.5vh;
+        font-size: 1.7em;
         margin-bottom: 6%;
     }
 
@@ -144,7 +145,7 @@
 
     .MainpageContent a {
         font-weight: 500;
-        font-size: 1.5vh;
+        font-size: 1.1em;
         color: white;
     }
 }

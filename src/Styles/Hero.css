@@ -16,7 +16,6 @@
     position: absolute;
 }
 
-
 /* Styling for the hero text holder */
 .HeroTextHolder {
     position: absolute;
@@ -37,13 +36,13 @@
   /* Styling for the hero title */
 .HeroText h1 {
     font-weight: 600;
-    font-size: 3.9em;
+    font-size: 3.45em;
 }
   
 /* Styling for the hero subtitle */
 .HeroText h2 {
     font-weight: 500;
-    font-size: 1.25em;
+    font-size: 1.2em;
     margin-top: -1.5%;
 }
   
@@ -73,18 +72,18 @@
     }
   
     .HeroText h1 {
-      font-size: 3.5vh;
+      font-size: 2em;
     }
   
     .HeroText h2 {
-      font-size: 1.8vh;
+      font-size: 1.15em;
     }
   
     .HeroText button {
-      margin-top: 3%;
-      width: 18vh;
-      height: 5vh;
-      font-size: 1.75vh;
+      margin-top: 4%;
+      width: 12em;
+      height: 2.7em;
+      font-size: 0.95em;
     }
   
   }
@@ -93,17 +92,21 @@
   @media (min-width: 769px) and (max-width: 1024px) {
     /* Styles for screen widths between 768px and 1024px */
     .HeroText button {
-      width: 15vh;
-      height: 4.5vh;
+      width: 12.5em;
+      height: 3.5em;
+      font-size: 1em;
     }
     .HeroText h1 {
-      font-size: 5vh;
+      font-size: 2.9em;
+    }
+    .HeroText h2 {
+      font-size: 1.5em;
     }
     .HeroText {
       padding-left: 5%;
     }
     .HeroTextHolder {
-      margin-top: 27vh;
+      margin-top: 13em;
     }
   }
   

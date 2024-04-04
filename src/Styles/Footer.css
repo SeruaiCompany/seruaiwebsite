@@ -1,6 +1,7 @@
 /* Styling for footer holder */
 .FooterHolder {
     padding-top: 5%;
+    padding-bottom: 1%;
     display: flex;
     width: 100%;
     margin-top: 7%;
@@ -53,7 +54,7 @@ Footer {
   
   /* Styling for footer containers images */
   .FooterContainers img {
-    width: 4vh;
+    width: 2em;
     height: auto;
     align-self: center;
     margin-bottom: 0.5%;
