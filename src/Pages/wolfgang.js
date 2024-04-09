@@ -3,7 +3,6 @@ import '../Styles/Mobile.css'
 import '../Styles/Hero.css'
 import '../Styles/Navbar.css'
 import '../Styles/Footer.css'
-import '../Styles/4k.css'
 import '../PageStyles/wolfgang.css'
 
 import Navbar from '../Components/navbar'
@@ -23,7 +22,7 @@ function wolfgang() {
         <Navbar/>
 
         {/* Hero */}
-        <HeroText Title1={"We solve all your problems,"} Title2={"Wolfgang was made with Developers in mind"} SubTitle={"Designed to cut costs of regular anticheat development, with more power and security, resulting in a better experience for players"} ButtonText={"Request a Demo"} Linkto={"/contactpage"} />
+        <HeroText Title1={"Introducing Wolfgang:"} Title2={"Our solution to Developers problems"} SubTitle={"Designed to cut costs for developers while protecting their intellectual property."} ButtonText={"Request a Demo"} Linkto={"/contactpage"} />
         <HeroVideo VideoPath={bannervideo} />
 
         {/* Page Body Code Below */}

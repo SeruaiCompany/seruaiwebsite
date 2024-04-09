@@ -110,3 +110,12 @@
     }
   }
   
+   @media (min-width: 2048px) {
+    .HeroTextHolder {
+      margin-top: 15em;
+    }
+    .HeroText h2 {
+      margin-top: 0.1%;
+    }
+  }
+  
