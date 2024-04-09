@@ -28,8 +28,11 @@ function wolfgang() {
         <HeroText Title1={"Introducing Wolfgang:"} Title2={"Our solution to Developers problems"} SubTitle={"Designed to cut costs for developers while protecting their intellectual property."} ButtonText={"Request a Demo"} Linkto={"/contactpage"} />
         <HeroVideo VideoPath={bannervideo} />
 
+
+
         {/* Page Body Code Below */}
-        <Article Img={WolfGangArticle} Title={"Protecting against Piracy and Cheating"} Description={"Our product called Wolfgang protects your intellectual property against pirates and cheaters with the latest technology in artificial intelligence. analyze processes and input, and compare it against data from legitimate humans in order to train our machine learning models to detect cheating. We use anti-tampering techniques in order to stop modifications to the game process, and are able to detect if is pirated."} />
+        <h1 className="TechnicalReport"> How Wolfgang Works </h1>
+        <Article Img={WolfGangArticle} Title={"Step One: Indentifying Modifications"} Description={"We"} />
         
 
       </body>
