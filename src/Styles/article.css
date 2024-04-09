@@ -1,0 +1,96 @@
+.TechnicalReport {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.05em;
+    font-family: roboto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-weight: 500;
+}
+
+.Article {
+    padding-top: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: black;
+    font-family: roboto;
+    padding-bottom: 0.7%;
+}
+
+.Article img {
+    height: auto;
+    width: 19em;
+    border-radius: 5px;
+    margin-right: 4%;
+}
+
+.Article h2 {
+    font-size: 1.7em;
+}
+
+.Article p {
+    font-size: 1em;
+    overflow-wrap: normal;
+    line-height: 1.5em;
+    width: 38em;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+
+    .Article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15%;
+    }
+
+    .Article p {
+        width: 19em;
+        font-size: 0.95em;
+    }
+
+    .Article img {
+        width: 15em;
+        align-self: center;
+        margin-right: 0%;
+        margin-bottom: 7%;
+    }
+
+    .Article h2 {
+        font-size: 1.05em;
+        margin-bottom: 6%;
+    }
+
+}
+  
+  /* Ipad */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    
+    .Article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15%;
+    }
+
+    .Article img {
+        width: 26em;
+        align-self: center;
+        margin-right: 0%;
+        margin-bottom: 7%;
+    }
+
+    .Article p {
+        width: 40em;
+    }
+
+    .Article h2 {
+        font-size: 1.7em;
+        margin-bottom: 6%;
+    }
+}
+  

@@ -4,11 +4,14 @@ import '../Styles/Hero.css'
 import '../Styles/Navbar.css'
 import '../Styles/Footer.css'
 import '../PageStyles/wolfgang.css'
+import '../Styles/article.css'
 
 import Navbar from '../Components/navbar'
 import Footer from '../Components/footer'
 import HeroVideo from '../Components/herovideo'
 import HeroText from '../Components/herotext';
+import Article from '../Components/article';
+import WolfGangArticle from '../Assets/wolfgangreport.svg'
 
 import bannervideo from '../Assets/herovideo.mp4';
 
@@ -26,7 +29,7 @@ function wolfgang() {
         <HeroVideo VideoPath={bannervideo} />
 
         {/* Page Body Code Below */}
-        
+        <Article Img={WolfGangArticle} Title={"Protecting against Piracy and Cheating"} Description={"Our product called Wolfgang protects your intellectual property against pirates and cheaters with the latest technology in artificial intelligence. analyze processes and input, and compare it against data from legitimate humans in order to train our machine learning models to detect cheating. We use anti-tampering techniques in order to stop modifications to the game process, and are able to detect if is pirated."} />
         
 
       </body>
