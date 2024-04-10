@@ -37,7 +37,6 @@ function BottomFooter() {
               <div className="FooterLinks">
                 <a className="FooterTitle"> Shortcuts </a>
                 <a> <Link to="/"> Homepage </Link> </a>
-                <a> <Link to="/termsofservice"> Terms of Service </Link> </a>
               </div>
 
             </div>

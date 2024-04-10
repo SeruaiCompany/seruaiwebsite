@@ -28,10 +28,9 @@ function mission() {
 
         {/* Page Body Code Below */}
         <h1 className="TechnicalReport"> Mission & Safety </h1>
-        <Article Img={Mission} Title={"Our Mission"} Description={"We can further improve the experience of players through live tracking of reports. We can automatically analyze Textchat, Voice communications, and Gameplay to determine if Player reports are legitimate, and instantly take action based on the reports. We use a Machine learning model to analyze gameplay, and determine the characteristics of certain gameplay. We can also process chatlogs and voice communcations to determine discriminatory speech. The entire Wolfgang Anticheat system is designed to provide the most competitive and fair experience for players, while cutting the maintenance costs for Developers. Ensuring total security with lower costs than our competitors."} />
-        <Article Img={Safety} Title={"Safety"} Description={"We can further improve the experience of players through live tracking of reports. We can automatically analyze Textchat, Voice communications, and Gameplay to determine if Player reports are legitimate, and instantly take action based on the reports. We use a Machine learning model to analyze gameplay, and determine the characteristics of certain gameplay. We can also process chatlogs and voice communcations to determine discriminatory speech. The entire Wolfgang Anticheat system is designed to provide the most competitive and fair experience for players, while cutting the maintenance costs for Developers. Ensuring total security with lower costs than our competitors."} />
+        <Article Img={Mission} Title={"Our Mission"} Description={"We strive to provide software that uses artificial intelligence to improve people's lives in multiple fields. We dedicate ourselves to providing high quality products that make a significant impact on people lives for the better. We do this while progressing our research on AI in fields that are applicable directly instead of being dangerous to humans such as AI that can fabricate video, images, and audio."} />
+        <Article Img={Safety} Title={"Safety"} Description={"We promise to use fundamental machine learning technology to develop products, and never research AI beyond. We adhere this safety, and we will not develop AI that will significantly impact humans lives in negative ways."} />
         
-
       </body>
       <Footer/>
     </div>
