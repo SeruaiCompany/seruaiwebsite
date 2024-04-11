@@ -27,7 +27,7 @@ function wolfgang() {
         <Navbar/>
 
         {/* Hero */}
-        <HeroText Title1={"Introducing Wolfgang:"} Title2={"Our solution to Developers problems"} SubTitle={"Designed to cut costs for developers while protecting their intellectual property."} ButtonText={"Request a Demo"} Linkto={"/contactpage"} />
+        <HeroText Title1={"Seruai Introduces: Wolfgang:"} Title2={"Our solution to Developers problems"} SubTitle={"Designed to cut costs for developers while protecting their intellectual property."} ButtonText={"Request a Demo"} Linkto={"/contactpage"} />
         <HeroVideo VideoPath={bannervideo} />
 
         {/* Page Body Code Below */}

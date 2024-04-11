@@ -35,7 +35,7 @@ function Main() {
           <img src={WolfgangReport} alt='wolfgangtechnicalreport' />
           <div class="MainpageText">
             <h2> Protecting against Piracy and Cheating </h2>
-            <p> Our product called Wolfgang protects your intellectual property against pirates and cheaters with the latest technology in artificial intelligence. <br/> We analyze processes and input, and compare it against data from legitimate humans in order
+            <p>We, Seruai offer a product called Wolfgang that protects your intellectual property against pirates and cheaters with the latest technology in artificial intelligence. <br/> We analyze processes and input, and compare it against data from legitimate humans in order
             to train our machine learning models to detect cheating. We use anti-tampering techniques in order to stop modifications to the game process, and are able to detect if is pirated.
             </p>
             <button class="TechnicalReportButton"> <Link to="/wolfgang"> <a> Read Technical Report </a> </Link> </button>

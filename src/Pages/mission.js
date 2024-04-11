@@ -28,8 +28,8 @@ function mission() {
 
         {/* Page Body Code Below */}
         <h1 className="TechnicalReport2"> Mission & Safety </h1>
-        <Article Img={Mission} Title={"Our Mission"} Description={"We strive to provide software that uses artificial intelligence to improve people's lives in multiple fields. We dedicate ourselves to providing high quality products that make a significant impact on people lives for the better. We do this while progressing our research on AI in fields that are applicable directly instead of being dangerous to humans such as AI that can fabricate video, images, and audio."} />
-        <Article Img={Safety} Title={"Safety"} Description={"We promise to use fundamental machine learning technology to develop products, and never research AI beyond. We adhere this safety, and we will not develop AI that will significantly impact humans lives in negative ways."} />
+        <Article Img={Mission} Title={"Seruai's Mission"} Description={"We strive to provide software that uses artificial intelligence to improve people's lives in multiple fields. We dedicate ourselves to providing high quality products that make a significant impact on people lives for the better. We do this while progressing our research on AI in fields that are applicable directly instead of being dangerous to humans such as AI that can fabricate video, images, and audio."} />
+        <Article Img={Safety} Title={"Seruai's Safety Statement"} Description={"We promise to use fundamental machine learning technology to develop products, and never research AI beyond. We adhere this safety, and we will not develop AI that will significantly impact humans lives in negative ways."} />
         
       </body>
       <Footer/>
