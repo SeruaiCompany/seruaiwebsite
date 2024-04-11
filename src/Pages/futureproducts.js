@@ -27,7 +27,7 @@ function futureproducts() {
         <HeroVideo VideoPath={bannervideo} />
 
         {/* Page Body Code Below */}
-        <h1 className="TechnicalReport"> Future Products </h1>
+        <h1 className="TechnicalReport2"> Future Products </h1>
         <Article Img={FutureProduct} Title={"Compania"} Description={"Compania is a desktop companian that sees exactly what you see, and automatically fills in information for you as well as helps you with tasks such as installing applications, programming, and organizing files for you. You can use this product in a company setting to boost productivity or at home. Getting rid of those mind numbing tasks."} />
         
 
