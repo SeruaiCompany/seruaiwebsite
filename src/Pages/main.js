@@ -25,7 +25,7 @@ function Main() {
         <Navbar/>
 
         {/* Hero */}
-        <HeroText Title1={"Providing Developers With"} Title2={"Tech to fight against Piracy and Cheating"} SubTitle={"Protect your digital rights with the latest technology powered by artificial intelligence."} ButtonText={"Request a Demo"} Linkto={"/contactpage"} />
+        <HeroText Title1={"Innovative Research in Tech:"} Title2={"From AI to the latest upcoming technology"} SubTitle={"We research artifical intelligence & other technology to improve the daily lives of humans"} ButtonText={"Contact us"} Linkto={"/contactpage"} />
         <HeroVideo VideoPath={bannervideo} />
 
         {/* Page Body Code Below */}
